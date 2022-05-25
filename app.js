@@ -48,56 +48,56 @@ document.addEventListener("keypress", (keyValue) => {
     }
 });
 
-let count = 0;
+const count = 0;
 
 boomDrum.addEventListener("click", () => {
-    boom.onpause();
+    boom.pause();
     boom.currentTime = 0;
-    boom.onplay();
+    boom.play();
 }); 
 
 kickDrum.addEventListener("click", () => {
-    kick.onpause();
+    kick.pause();
     kick.currentTime = 0;
-    kick.onplay();
+    kick.play();
 }); 
 
 snareDrum.addEventListener("click", () => {
-    snare.onpause();
+    snare.pause();
     snare.currentTime = 0;
-    snare.onplay();
+    snare.play();
 }); 
 
 clapDrum.addEventListener("click", () => {
-    clap.onpause();
+    clap.pause();
     clap.currentTime = 0;
-    clap.onplay();
+    clap.play();
 }); 
 
 openhatDrum.addEventListener("click", () => {
-    openhat.onpause();
+    openhat.pause();
     openhat.currentTime = 0;
-    openhat.onplay();
+    openhat.play();
 }); 
 
 tinkDrum.addEventListener("click", () => {
-    tink.onpause();
+    tink.pause();
     tink.currentTime = 0;
-    tink.onplay();
+    tink.play();
 }); 
 hihatDrum.addEventListener("click", () => {
-    hihat.onpause();
+    hihat.pause();
     hihat.currentTime = 0;
-    hihat.onplay();
+    hihat.play();
 }); 
 rideDrum.addEventListener("click", () => {
-    ride.onpause();
+    ride.pause();
     ride.currentTime = 0;
-    ride.onplay();
+    ride.play();
 }); 
 tomDrum.addEventListener("click", () => {
-    tom.onpause();
+    tom.pause();
     tom.currentTime = 0;
-    tom.onplay();
+    tom.play();
 }); 
 

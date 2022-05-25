@@ -95,6 +95,10 @@ rideDrum.addEventListener("click", () => {
     ride.currentTime = 0;
     ride.play();
 }); 
+
+// so the pause and current time allow it to be pressed and repeat the sound instantly
+// without it you have to wait for the sound clip to end before it repeats
+
 tomDrum.addEventListener("click", () => {
     tom.pause();
     tom.currentTime = 0;

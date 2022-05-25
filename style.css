@@ -13,6 +13,15 @@ h1{
     opacity: 0.5;
 }
 
+.instructions {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
 .drum{
     border: 2px solid skyblue;
     font-size: large;
@@ -23,5 +32,12 @@ h1{
     height: 100px;
     background-color: lightyellow;
     text-align:center;
-    flex-direction: row-reverse;
+}
+
+
+
+@media all and (max-width: 400px) {
+    .instructions {
+        width: 70%;
+    }
 }

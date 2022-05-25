@@ -14,7 +14,7 @@ h1{
 }
 
 .drum{
-    border: 5px solid skyblue;
+    border: 2px solid skyblue;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: crimson;
@@ -23,4 +23,5 @@ h1{
     height: 100px;
     background-color: lightyellow;
     text-align:center;
+    flex-direction: row-reverse;
 }

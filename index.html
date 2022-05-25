@@ -8,51 +8,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Drum Kit Challenge</h1>
+    <h2>Press a key or click one of the buttons</h2>
     
+<div class="instructions">
+        <div data-key="65" class="drum" id="boomDrum">
+            <p>a</p>
+            <p>Sound: Boom</p>
+            <audio id="boom" src="sounds/boom.wav"></audio>
+        </div>
+    
+        <div data-key="83" class="drum" id="clapDrum">
+            <p>s</p>
+            <p>Sound: Clap</p>
+            <audio id="clap" src="sounds/clap.wav"></audio>
+        </div>
+    
+        <div data-key="68" class="drum" id="hihatDrum">
+            <p>d</p>
+            <p>Sound: Hihat</p>
+            <audio id="hihat" src="sounds/hihat.wav"></audio>
+        </div>
+  
+        <div data-key="70" class="drum" id="kickDrum">
+            <p>f</p>
+            <p>Sound: Kick</p>
+            <audio id="kick" src="sounds/kick.wav"></audio>
+        </div>
+  
+        <div data-key="71" class="drum" id="openhatDrum">
+            <p>g</p>
+            <p>Sound: Openhat</p>
+            <audio id="openhat" src="sounds/openhat.wav"></audio>
+        </div>
+    
+        <div data-key="72" class="drum" id="rideDrum">
+            <p>h</p>
+            <p>Sound: Ride</p>
+            <audio id="ride" src="sounds/ride.wav"></audio>
+        </div>
+    
+        <div data-key="74" class="drum" id="snareDrum">
+            <p>j</p>
+            <p>Sound: Snare</p>
+            <audio id="snare" src="sounds/snare.wav"></audio>
+        </div>
+        <div data-key="75" class="drum" id="tinkDrum">
+            <p>k</p>
+            <p>Sound: Tink</p>
+            <audio id="tink" src="sounds/tink.wav"></audio>
+        </div>
+        <div data-key="76" class="drum" id="tomDrum">
+            <p>k</p>
+            <p>Sound: Tom</p>
+            <audio id="tom" src="sounds/tom.wav"></audio>
+        </div>
+</div>
+
+    <script src="./app.js"></script>
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drumkit</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Drum Kit</h1>
-
-    <div class="set">
-    <button class="a drum">Boom</button>
-    <button class="b drum">Clap</button>
-    <button class="c drum"> Hihat</button>
-    <button class="d drum">Kick</button>
-    <button class="e drum">Openhat</button>
-    <button class="f drum">Ride</button>
-    <button class="g drum">Snare</button>
-    <button class="h drum">Tink</button>
-    <button class="i drum">Tom</button>
-    </div>
-
-    
-<script src="index.js"></script>
-</body>
-</html> -->

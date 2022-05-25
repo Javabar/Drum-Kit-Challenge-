@@ -9,39 +9,39 @@ const tink = document.getElementById("tink");
 const tom = document.getElementById("tom");
 
 document.addEventListener("keypress", (keyValue) => {
-    if (keyValue.key == "a" || keyValue.key == "A"){
+    if (keyValue.key == "a"){
         boom.pause();
         boom.currentTime = 0;
         boom.play();
-    } else if ( keyValue.key == "s" || keyValue.key == "S") {
+    } else if ( keyValue.key == "s") {
         clap.pause();
         clap.currentTime = 0;
         clap.play();
-    }else if ( keyValue.key == "d" || keyValue.key == "D") {
+    }else if ( keyValue.key == "d") {
         hihat.pause();
         hihat.currentTime = 0;
         hihat.play();
-    } else if ( keyValue.key == "f" || keyValue.key == "F") {
+    } else if ( keyValue.key == "f" ) {
         kick.pause();
         kick.currentTime = 0;
         kick.play();
-    } else if ( keyValue.key == "g" || keyValue.key == "G") {
+    } else if ( keyValue.key == "g") {
         openhat.pause();
         openhat.currentTime = 0;
         openhat.play();
-    } else if ( keyValue.key == "h" || keyValue.key == "H") {
+    } else if ( keyValue.key == "h") {
         ride.pause();
         ride.currentTime = 0;
         ride.play();
-    } else if ( keyValue.key == "j" || keyValue.key == "J") {
+    } else if ( keyValue.key == "j") {
         snare.pause();
         snare.currentTime = 0;
         snare.play();
-    } else if ( keyValue.key == "k" || keyValue.key == "K") {
+    } else if ( keyValue.key == "k") {
         tink.pause();
         tink.currentTime = 0;
         tink.play();
-    } else if ( keyValue.key == "l" || keyValue.key == "L") {
+    } else if ( keyValue.key == "l") {
         tom.pause();
         tom.currentTime = 0;
         tom.play();

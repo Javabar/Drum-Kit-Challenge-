@@ -1,0 +1,26 @@
+.set{
+    text-align: center;
+    padding: 200px;
+}
+
+h1{
+    text-align:center;
+    color:darkcyan;
+}
+
+.animation {
+    box-shadow:  0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.drum{
+    border: 5px solid skyblue;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson;
+    border-radius: 20px;
+    width: 125px;
+    height: 100px;
+    background-color: lightyellow;
+    text-align:center;
+}
